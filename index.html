@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Bakken</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <h1>Rich Bakken</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a class="reservation" href="#reservation">RESERVATION</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="content">
+        <h3>Welcome to Rich Bakken</h3>
+        <h1>Rich, Healthy, and Natural Food</h1>
+        <p>Rich Bakken is a restaurant located in India. We have some amazing recipes and the most talented Bakers in the country.</p>
+        <div class="search">
+            <input type="text" placeholder="Search Food" aria-label="Search Food">
+        </div>
+        <div class="submit">
+            <a href="#">Submit</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Rich Bakken, we pride ourselves on offering rich, healthy, and natural flavors in our cakes, ice creams, cookies, brownies, and more. Our focus is on delivering delicious food made from the finest ingredients, ensuring a memorable culinary experience.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Cakes</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt3QgIPZfKBrD_Zov1iGvI2WVRnMBlmRvhugeogh7OFGkxdW9m" alt="Cakes">
+            </div>
+            <div class="menu-item">
+                <h3>Ice Creams</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkVTdlutxzKAwuvvulWrhRTL8cS_JmmSMjXbKt-efW_A&s" alt="Ice Creams">
+            </div>
+            <div class="menu-item">
+                <h3>Cookies</h3>
+                <img src="https://www.barleyandsage.com/wp-content/uploads/2023/06/white-chocolate-macadamia-nut-cookies-1200x1200-1.jpg" alt="Cookies">
+            </div>
+            <div class="menu-item">
+                <h3>Brownies</h3>
+                <img src="https://i0.wp.com/bryonysbakes.com/wp-content/uploads/2021/07/500A2F5F-871F-49F0-ADF2-4D0FC502A1DB.jpg?ssl=1" alt="Brownies">
+            </div>
+            <div class="menu-item">
+                <h4>Puffs</h4>
+                <img src="https://carveyourcraving.com/wp-content/uploads/2021/11/veg-puff.jpg" alt="Puffs">
+            </div>
+            <div class="menu-item">
+                <h5>Coustomized</h5>
+                <img src="https://hicaps.com.ph/wp-content/uploads/2023/06/variety-of-baked-goods.jpg" alt="Coustomized">
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-items">
+            <img src="https://www.fnp.com/assets/images/custom/cakes_23_mob/cakes_delivery/Same-Day_mob.jpg" alt="Gallery Image 1">
+            <img src="https://www.saunamanufacture.com/cch/bakery-and-cafe-design-030055.jpg" alt="Gallery Image 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzG8_iM0jz5-mYcEO54fywwwpIKudAM2E6NA&s" alt="Gallery Image 3">
+            <img src="https://www.shutterstock.com/image-photo/woman-serving-customer-cake-shop-600nw-2127685124.jpg" alt="Gallery Image 4">
+            <img src="https://www.wegmans.com/wp-content/uploads/6158874-customCakes.jpg" alt="Gallery Image 5">
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2>Our Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://static.toiimg.com/photo/91603353/91603353.jpg" alt="Team Member 1">
+                <h3>Baker Rashma </h3>
+            </div>
+            <div class="team-member">
+                <img src="https://bakedemy.com/wp-content/uploads/2021/09/189105687_538282100515223_2286185580934844042_n.jpg" alt="Team Member 2">
+                <h3>Baker Venkat</h3>
+            </div>
+            <div class="team-member">
+                <img src="https://static.toiimg.com/photo/91603354/91603354.jpg" alt="Team Member 3">
+                <h3>Baker Liya</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section id="reservation" class="reservation">
+        <h2>Make a Reservation</h2>
+        <form>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="people">Number of People:</label>
+            <input type="number" id="people" name="people" min="1">
+            <button type="submit">Reserve</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Rich Bakken. All rights reserved.</p>
+    </footer>
+</body>
+</html>
